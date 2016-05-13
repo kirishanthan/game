@@ -66,4 +66,5 @@ else if(uchoice === "Scissors"){
 document.write("<font size='24'><b>" + results + "</font></b><br>");
 document.write("<font size='14'>Your choice is " + uchoice + "</font><br>");
 document.write("<font size='14'>Computer's Choice is " + cchoice + "</font></b>");
+document.write("<font size='14'>Need a lot more to learn</font></b>");
 };
