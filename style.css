@@ -1,0 +1,85 @@
+body{
+  background: #FFE9EC;
+  font-family: 'Indie Flower', cursive;
+  margin: 0 auto;
+  position: relative;
+}
+h1{
+  font-size: 78px;
+  color: #77003c;
+}
+h2{
+  font-size: 38px;
+  color: #77003c;
+}
+.title{
+  display: block;
+  height: 150px;
+  width: 100%;
+  background: #ffe4a3;
+  text-align: center;
+  margin-top: 50px;
+}
+.sub{
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #ffe4a3;
+  text-align: center;
+  margin-top: 50px;
+}
+.weapon-container{
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #fff;
+
+}
+.rock{
+  cursor:pointer;
+  margin-left: 30px;
+  display: inline-block;
+  background-image: url('icons.png');
+  background-position: 169 0;
+  height: 169px;
+  width: 169px;
+}
+.rock:hover{
+    background-position: 169 169;
+}
+.paper{
+  cursor:pointer;
+  margin-left: 30px;
+  display: inline-block;
+  background-image: url('icons.png');
+  background-position: 338 0;
+  height: 169px;
+  width: 169px;
+}
+.paper:hover{
+    background-position: 338 169; 
+}
+.scissors{
+  cursor:pointer;
+  margin-left: 30px;
+  display: inline-block;
+  background-image: url('icons.png');
+  background-position: 0 0;
+  height: 169px;
+  width: 169px;
+}
+.results{
+  display: block;
+  height: 200px;
+  width: 600px;
+  color: #000;
+}
+.scissors:hover{
+    background-position: 0 169; 
+}
+@media screen and (max-width: 700px){
+  h1{
+    font-size: 48px;
+  }
+}
